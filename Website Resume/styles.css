@@ -1,0 +1,47 @@
+.profile_pic {
+    height: 250px;
+    width: 150px;
+    border: 5px rgba(0,43,87,1) solid;
+}
+
+.head {
+    background-image: url(images/background.jpeg), url(images/background2.JPG);
+    background-size: contain;
+    background-position: right, left;
+    background-repeat: no-repeat;
+    background-color: lightgray;
+    background-blend-mode: overlay;
+}
+
+.intro {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #8BC6EC;
+    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+    margin: 15px 25%;
+    padding: 15px;
+}
+
+.summary {
+    display: flex;
+    justify-content: flex-start;
+    padding: 30px;
+}
+
+.extra {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 10px;
+    border-left: 2px ridge;
+}
+
+.skills {
+    list-style-type: circle;
+}
+
+footer {
+    padding-left: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: aliceblue;
+}
